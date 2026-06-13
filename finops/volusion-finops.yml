@@ -1,0 +1,64 @@
+name: Volusion FinOps
+description: Financial operations considerations for using Volusion as an e-commerce platform. API access requires Business ($299/month) or Prime (custom) plans. Cost drivers include plan tier, GMV thresholds, and payment gateway fees.
+url: https://www.volusion.com/pricing/
+cost_model:
+  type: Subscription + GMV-based tier upgrades
+  billing_cycle: Monthly
+  free_trial:
+    available: true
+    duration: 14 days
+    credit_card_required: false
+  notes: >
+    Volusion uses a subscription model with four tiers. Each plan includes an annual
+    Gross Merchandise Volume (GMV) cap; exceeding the cap requires upgrading to the
+    next tier. API access is gated behind the Business plan ($299/month) or Prime
+    (custom pricing).
+cost_drivers:
+  - name: Plan Subscription
+    description: Monthly subscription fee for the chosen Volusion plan.
+    tiers:
+      - plan: Personal
+        monthly_cost: 35
+        currency: USD
+        api_access: false
+      - plan: Professional
+        monthly_cost: 79
+        currency: USD
+        api_access: false
+      - plan: Business
+        monthly_cost: 299
+        currency: USD
+        api_access: true
+      - plan: Prime
+        monthly_cost: custom
+        currency: USD
+        api_access: true
+
+  - name: GMV Cap Overages
+    description: Each plan has a maximum annual Gross Merchandise Volume. Exceeding the limit requires upgrading to a higher plan tier.
+    tiers:
+      - plan: Personal
+        max_gmv_annual: 50000
+        currency: USD
+      - plan: Professional
+        max_gmv_annual: 100000
+        currency: USD
+      - plan: Business
+        max_gmv_annual: 400000
+        currency: USD
+      - plan: Prime
+        max_gmv_annual: unlimited
+
+  - name: Payment Gateway Fees
+    description: Additional transaction fees may apply when using non-preferred payment gateways. Volusion integrates with Stripe, PayPal, and other processors.
+    notes: >
+      Using Volusion's preferred payment processor (Volusion Payments powered by Stripe)
+      may reduce or eliminate additional gateway transaction fees. Non-preferred gateways
+      incur extra fees as noted in plan terms.
+
+optimization_tips:
+  - Monitor annual GMV carefully to anticipate plan upgrade requirements before hitting caps.
+  - Use Volusion Payments (powered by Stripe) as the primary processor to minimize gateway fees.
+  - The Business plan ($299/month) is the minimum required for API access; evaluate whether integration needs justify the cost over lower-tier plans.
+  - Prime plan custom pricing can be negotiated for high-volume stores; request a quote once GMV approaches $400K annually.
+  - Use the 14-day free trial to evaluate API capabilities before committing to a Business or Prime plan.

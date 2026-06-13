@@ -1,0 +1,65 @@
+aid: volusion
+name: Volusion
+description: Volusion is an all-in-one e-commerce platform that provides merchants with a REST API for managing online store products, categories, customers, orders, shipping, and inventory across Volusion-hosted stores. API access is available on Business and Prime plans.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/volusion/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - E-Commerce
+  - Online Store
+  - Products
+  - Orders
+  - Customers
+  - Inventory
+  - Shopping Cart
+apis:
+  - aid: volusion:volusion-api
+    name: Volusion API
+    description: The Volusion API allows merchants on Business and Prime plans to connect third-party applications with their Volusion store, enabling import and export of products, orders, customers, categories, shipping, and inventory data.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://help.volusion.com/s/thevolusionapi
+    baseURL: https://yourstore.com/api/2.0
+    tags:
+      - E-Commerce
+      - Products
+      - Orders
+      - Customers
+      - Inventory
+      - Categories
+      - Shipping
+    properties:
+      - type: Documentation
+        url: https://help.volusion.com/s/thevolusionapi
+      - type: Authentication
+        url: https://help.volusion.com/s/APIIntegrationIntroductionDeveloper
+    contact:
+      - FN: Volusion Support
+        url: https://www.volusion.com/contact/
+common:
+  - type: Website
+    url: https://www.volusion.com
+  - type: Documentation
+    url: https://help.volusion.com/s/thevolusionapi
+  - type: GitHubOrg
+    url: https://github.com/volusion
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/volusion
+  - type: Blog
+    url: https://www.volusion.com/blog/
+  - type: Pricing
+    url: https://www.volusion.com/pricing/
+  - type: StatusPage
+    url: https://status.volusion.com/
+  - type: X
+    url: https://twitter.com/volusion/
+  - type: Plans
+    url: plans/volusion-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/volusion-rate-limits.yml
+  - type: FinOps
+    url: finops/volusion-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

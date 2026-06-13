@@ -1,0 +1,78 @@
+name: Volusion Plans and Pricing
+description: Volusion offers four pricing tiers for its e-commerce platform. API access is restricted to Business and Prime plans only. All plans include free SSL, unlimited bandwidth, and web hosting with no setup fees or long-term contracts.
+url: https://www.volusion.com/pricing/
+plans:
+  - name: Personal
+    description: Entry-level plan for small stores just getting started with e-commerce.
+    price:
+      monthly: 35
+      currency: USD
+    features:
+      - Max annual GMV of $50,000
+      - Up to 100 products
+      - 1 staff account
+      - Free SSL certificate
+      - Unlimited bandwidth
+      - Web hosting included
+      - Live chat and email support
+    api_access: false
+    notes: No API access on this plan.
+
+  - name: Professional
+    description: Mid-tier plan for growing stores with more products and team members.
+    price:
+      monthly: 79
+      currency: USD
+    features:
+      - Max annual GMV of $100,000
+      - Up to 5,000 products
+      - 5 staff accounts
+      - Free SSL certificate
+      - Unlimited bandwidth
+      - Web hosting included
+      - Import/export
+      - Phone orders
+      - CRM
+      - Ratings and reviews
+      - Live chat and email support
+    api_access: false
+    notes: No API access on this plan.
+
+  - name: Business
+    description: Advanced plan for established stores requiring API access and advanced features.
+    price:
+      monthly: 299
+      currency: USD
+    features:
+      - Max annual GMV of $400,000
+      - Unlimited products
+      - 15 staff accounts
+      - Free SSL certificate
+      - Unlimited bandwidth
+      - Web hosting included
+      - API access
+      - Batch order processing
+      - Customer loyalty plan
+      - Live chat, email, and phone (call-in) support
+    api_access: true
+    notes: First plan tier to include API access.
+
+  - name: Prime
+    description: Enterprise plan for high-volume stores with custom GMV limits and dedicated support.
+    price:
+      monthly: custom
+      currency: USD
+    features:
+      - Unlimited annual GMV
+      - Unlimited products
+      - Unlimited staff accounts
+      - Free SSL certificate
+      - Unlimited bandwidth
+      - Web hosting included
+      - API access
+      - Client success manager
+      - Premiere feature access
+      - VIP response support
+      - Live chat, email, and phone support
+    api_access: true
+    notes: Custom pricing based on GMV. Includes all Business plan features plus premium perks.

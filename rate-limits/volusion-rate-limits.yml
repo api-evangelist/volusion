@@ -1,0 +1,23 @@
+name: Volusion API Rate Limits
+description: Volusion imposes rate limits on API requests. Specific numeric thresholds are not publicly documented; merchants are advised to manage data requests carefully to avoid hitting limits. Rate limit details are available within the store admin panel under Inventory > Volusion API.
+url: https://help.volusion.com/s/thevolusionapi
+rate_limits:
+  - scope: API Requests
+    description: Volusion imposes rate limits on API requests, requiring developers to manage data requests carefully. Exact limits are not publicly disclosed and may vary by plan.
+    limit: Not publicly disclosed
+    window: Not publicly disclosed
+    notes: >
+      Volusion enforces rate limits to protect platform stability. Developers should
+      implement retry logic with exponential backoff when receiving rate limit errors.
+      Contact Volusion support for specific thresholds applicable to Business or Prime plans.
+  - scope: Password Rotation
+    description: Due to PCI security guidelines, administrator account passwords used for API authentication must be updated every 90 days. API URL strings must be updated accordingly.
+    limit: 90 days
+    window: Per administrator account
+    notes: >
+      API authentication credentials (admin email and encrypted password) expire every
+      90 days per PCI compliance requirements. Update API configurations when prompted.
+authentication:
+  type: Admin Credentials (email + encrypted password)
+  description: The Volusion API requires administrator credentials consisting of an admin email address and an encrypted password string obtained from the store admin panel at Inventory > Volusion API.
+  notes: OAuth is referenced in some integration contexts for the newer Volt platform (API v2.0). Legacy V1 API uses admin credential-based URL string authentication.
