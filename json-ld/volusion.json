@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Volusion",
+  "description": "Volusion is an all-in-one e-commerce platform that provides merchants with a REST API for managing online store products, categories, customers, orders, shipping, and inventory across Volusion-hosted stores.",
+  "url": "https://www.volusion.com",
+  "sameAs": [
+    "https://github.com/volusion",
+    "https://www.linkedin.com/company/volusion",
+    "https://twitter.com/volusion/"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "https://www.volusion.com/contact/",
+    "contactType": "customer support"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Volusion API",
+    "description": "The Volusion API allows merchants on Business and Prime plans to connect third-party applications with their Volusion store, enabling import and export of products, orders, customers, categories, shipping, and inventory data.",
+    "url": "https://help.volusion.com/s/thevolusionapi"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.volusion.com/pricing/",
+    "name": "Volusion Plans",
+    "description": "API access is available on Business and Prime plans."
+  }
+}
