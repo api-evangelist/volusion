@@ -11,7 +11,7 @@
     {
       "title": "How AI is Changing Ecommerce in 2026",
       "url": "https://www.volusion.com/blog/how-ai-is-changing-ecommerce-in-2026/",
-      "description": "AI is transforming ecommerce in 2026—from personalized shopping experiences to predictive analytics and automation."
+      "description": "AI is transforming ecommerce in 2026\u2014from personalized shopping experiences to predictive analytics and automation."
     },
     {
       "title": "Flexible by Design: Why Ecommerce Platforms Must Adapt to Merchants",
@@ -23,7 +23,7 @@
     {
       "title": "From Silos to Systems: How Unified Revenue Teams Drive Predictable Growth",
       "url": "https://www.volusion.com/blog/from-silos-to-systems-how-unified-revenue-teams-drive-predictable-growth/",
-      "author": "Lanée Mellegard",
+      "author": "Lan\u00e9e Mellegard",
       "category": "Business Operations"
     },
     {
@@ -46,5 +46,14 @@
       "url": "https://www.volusion.com/blog/using-the-psychology-of-discounts-to-make-more-money/",
       "category": "Marketing & Promotion"
     }
-  ]
+  ],
+  "repo": "volusion",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/volusion",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
