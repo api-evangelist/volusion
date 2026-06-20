@@ -1,7 +1,7 @@
 aid: volusion
 name: Volusion
 description: Volusion is an all-in-one e-commerce platform that provides merchants with a REST API for managing online store products, categories, customers, orders, shipping, and inventory across Volusion-hosted stores. API access is available on Business and Prime plans.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/volusion/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -18,7 +18,7 @@ apis:
   - aid: volusion:volusion-api
     name: Volusion API
     description: The Volusion API allows merchants on Business and Prime plans to connect third-party applications with their Volusion store, enabling import and export of products, orders, customers, categories, shipping, and inventory data.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://help.volusion.com/s/thevolusionapi
     baseURL: https://yourstore.com/api/2.0
     tags:
