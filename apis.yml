@@ -38,6 +38,8 @@ apis:
       - FN: Volusion Support
         url: https://www.volusion.com/contact/
 common:
+  - type: DomainSecurity
+    url: security/volusion-domain-security.yml
   - type: Website
     url: https://www.volusion.com
   - type: Documentation

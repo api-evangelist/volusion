@@ -1,0 +1,32 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.volusion.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 25 22:19:44 2026 GMT
+  hsts: false
+- host: help.volusion.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  4 07:21:18 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: yourstore.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan 18 14:52:39 2027 GMT
+  hsts: null
+domains:
+- domain: volusion.com
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
+- domain: yourstore.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
