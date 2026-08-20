@@ -21,6 +21,14 @@ specificationVersion: '0.23'
 tags:
   - E-Commerce
   - Online Store
+  - Product
+  - Order
+  - Customers
+  - Inventory
+  - Shopping Cart
+tags_raw:
+  - E-Commerce
+  - Online Store
   - Products
   - Orders
   - Customers
@@ -34,6 +42,14 @@ apis:
     humanURL: https://help.volusion.com/s/thevolusionapi
     baseURL: https://yourstore.com/api/2.0
     tags:
+      - E-Commerce
+      - Product
+      - Order
+      - Customers
+      - Inventory
+      - Categories
+      - Shipping
+    tags_raw:
       - E-Commerce
       - Products
       - Orders
