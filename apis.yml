@@ -1,6 +1,17 @@
 aid: volusion
 name: Volusion
 description: Volusion is an all-in-one e-commerce platform that provides merchants with a REST API for managing online store products, categories, customers, orders, shipping, and inventory across Volusion-hosted stores. API access is available on Business and Prime plans.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
