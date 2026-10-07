@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: Volusion API Rate Limits
 description: Volusion imposes rate limits on API requests. Specific numeric thresholds are not publicly documented; merchants are advised to manage data requests carefully to avoid hitting limits. Rate limit details are available within the store admin panel under Inventory > Volusion API.
 url: https://help.volusion.com/s/thevolusionapi
