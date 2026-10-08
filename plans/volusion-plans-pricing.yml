@@ -80,3 +80,34 @@ plans:
       - Live chat, email, and phone support
     api_access: true
     notes: Custom pricing based on GMV. Includes all Business plan features plus premium perks.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: Personal
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Professional
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Business
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Prime
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
