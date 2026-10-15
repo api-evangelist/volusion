@@ -32,7 +32,6 @@
   arazzo: null
 - slug: volusion-microsoft-excel
   label: Microsoft Excel
-  partner: microsoft-excel
   partner_name: Microsoft Excel
   category: Microsoft
   type: marketplace
@@ -244,4 +243,29 @@
     detected_by: detect-payment-method-edges.py
     detected: '2026-10-12'
   status: not-a-workflow
+  arazzo: null
+- slug: volusion-zapier
+  label: Zapier
+  partner: zapier
+  partner_name: Zapier
+  type: marketplace
+  marketplace: zapier-directory
+  channel: ipaas-listing
+  evidence: https://zapier.com/apps/volusion/integrations
+  source: edge
+  relationship: ipaas-bridge
+  contract_reference:
+    register: Zapier app directory (zapier.com/api/v4/apps)
+    spec_file: null
+    role: ipaas-connector:zapier
+    registered_name: Volusion
+    matched_domain: volusion.com
+    matched_by: domain
+    detected_by: sweep-workflow-automation.py
+    detected: '2026-10-15'
+    signal_note: one edge per (provider, platform); actions, triggers and usage counts are context, never read
+    app_slug: volusion
+    beta: false
+    builder: unknown (not in the directory record)
+  status: pending-partner-spec
   arazzo: null
