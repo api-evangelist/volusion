@@ -1,4 +1,4 @@
-generated: '2026-10-12'
+generated: '2026-10-20'
 method: searched
 source:
 - https://zapier.com/apps/volusion/integrations
@@ -42,215 +42,6 @@ marketplace_apps:
     label: Create Product
   searches: []
 edges:
-- partner_name: ShipStation
-  partner: shipstation
-  partner_match: domain
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/shipstation
-  direction: third-party
-  category: eCommerce
-  partner_url: http://www.shipstation.com/
-- partner_name: QuickBooks Online
-  partner: null
-  partner_match: null
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/quickbooks
-  direction: third-party
-  category: Accounting
-  partner_url: http://intuit.com/
-- partner_name: Microsoft Excel
-  partner: null
-  partner_match: null
-  partner_candidate: zapier
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/excel
-  direction: third-party
-  category: Microsoft
-  partner_url: https://zapier.com/office.com
-- partner_name: B2B Generator
-  partner: null
-  partner_match: null
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/b2b-generator
-  direction: third-party
-  category: Product Management
-  partner_url: https://www.cutting-edgesolutions.com/
-- partner_name: Brevo
-  partner: brevo
-  partner_match: name-exact
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/brevo
-  direction: third-party
-  category: Email Newsletters
-  partner_url: https://www.sendinblue.com/?utm_medium=plugin&utm_source=zapier
-- partner_name: YouTube
-  partner: youtube
-  partner_match: domain
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/youtube
-  direction: third-party
-  category: Google
-  partner_url: https://www.youtube.com/
-- partner_name: Facebook Lead Ads (for Business admins)
-  partner: null
-  partner_match: null
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/facebook-lead-ads-beta
-  direction: third-party
-  category: Ads & Conversion
-  partner_url: https://facebook.com/
-- partner_name: Sender
-  partner: sender
-  partner_match: name-exact
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/sender
-  direction: third-party
-  category: Email Newsletters
-  partner_url: https://www.sender.net/?utm_source=Zapier&utm_medium=email+newsletter&utm_campaign=apps+directory
-- partner_name: Stripe (Legacy)
-  partner: stripe
-  partner_match: domain
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/stripe-legacy
-  direction: third-party
-  category: Payment Processing
-  partner_url: https://stripe.com/
-- partner_name: MySQL
-  partner: mysql
-  partner_match: domain
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/mysql
-  direction: third-party
-  category: Databases
-  partner_url: https://www.mysql.com/
-- partner_name: Odoo ERP Self Hosted
-  partner: odoo
-  partner_match: domain
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/openerp
-  direction: third-party
-  category: CRM (Customer Relationship Management)
-  partner_url: https://www.odoo.com/
-- partner_name: CallRail
-  partner: callrail
-  partner_match: domain
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/callrail
-  direction: third-party
-  category: Call Tracking
-  partner_url: https://www.callrail.com/?utm_medium=strategicpartner&utm_source=zapier&utm_campaign=app_listing&utm_content=app_listing
-- partner_name: Copper
-  partner: copper
-  partner_match: domain
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/copper
-  direction: third-party
-  category: CRM (Customer Relationship Management)
-  partner_url: https://copper.com/?utm_source=zapier&utm_medium=zapier
-- partner_name: Formstack Documents
-  partner: null
-  partner_match: null
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/formstack-documents
-  direction: third-party
-  category: Documents
-  partner_url: https://www.webmerge.me/?utm_source=zapier.com&utm_medium=referral&utm_campaign=partners&utm_content=partner+link
-- partner_name: Cin7 Core Inventory
-  partner: null
-  partner_match: null
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/cin7-core
-  direction: third-party
-  category: Accounting
-  partner_url: https://dearsystems.com/
-- partner_name: Magento 2.X
-  partner: null
-  partner_match: null
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/magento-v2
-  direction: third-party
-  category: eCommerce
-  partner_url: https://magento.com/
-- partner_name: BenchmarkONE
-  partner: null
-  partner_match: null
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/benchmarkone
-  direction: third-party
-  category: CRM (Customer Relationship Management)
-  partner_url: http://www.hatchbuck.com/
-- partner_name: Hello Bar
-  partner: null
-  partner_match: null
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/hello-bar
-  direction: third-party
-  category: Marketing Automation
-  partner_url: https://www.hellobar.com/
-- partner_name: Volusion
-  partner: volusion
-  partner_match: domain
-  partner_candidate: null
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/volusion/integrations/volusion
-  direction: third-party
-  category: eCommerce
-  partner_url: https://www.volusion.com/
 - partner_name: bolt-financial
   partner: bolt-financial
   partner_match: domain
@@ -291,6 +82,234 @@ edges:
     builder: unknown (not in the directory record)
   detected_by: sweep-workflow-automation.py
   first_seen: '2026-10-15'
+- partner_name: ShipStation
+  partner: shipstation
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/shipstation
+  direction: third-party
+  category: eCommerce
+  partner_url: http://www.shipstation.com/
+- partner_name: QuickBooks Online
+  partner: quickbooks
+  partner_match: domain+name-among-holders
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/quickbooks
+  direction: third-party
+  category: Accounting
+  partner_url: http://intuit.com/
+- partner_name: Microsoft Excel
+  partner: null
+  partner_match: null
+  partner_candidate: zapier
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/excel
+  direction: third-party
+  category: Microsoft
+  partner_url: https://zapier.com/office.com
+- partner_name: B2B Generator
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/b2b-generator
+  direction: third-party
+  category: Product Management
+  partner_url: https://www.cutting-edgesolutions.com/
+- partner_name: Brevo
+  partner: brevo
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/brevo
+  direction: third-party
+  category: Email Newsletters
+  partner_url: https://www.sendinblue.com/?utm_medium=plugin&utm_source=zapier
+- partner_name: YouTube
+  partner: youtube
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/youtube
+  direction: third-party
+  category: Google
+  partner_url: https://www.youtube.com/
+- partner_name: Facebook Lead Ads (for Business admins)
+  partner: facebook-lead-ads
+  partner_match: domain+name-among-holders
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/facebook-lead-ads-beta
+  direction: third-party
+  category: Ads & Conversion
+  partner_url: https://facebook.com/
+- partner_name: Sender
+  partner: sender
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/sender
+  direction: third-party
+  category: Email Newsletters
+  partner_url: https://www.sender.net/?utm_source=Zapier&utm_medium=email+newsletter&utm_campaign=apps+directory
+- partner_name: Stripe (Legacy)
+  partner: stripe
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/stripe-legacy
+  direction: third-party
+  category: Payment Processing
+  partner_url: https://stripe.com/
+- partner_name: MySQL
+  partner: mysql
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/mysql
+  direction: third-party
+  category: Databases
+  partner_url: https://www.mysql.com/
+- partner_name: Odoo ERP Self Hosted
+  partner: odoo
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/openerp
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://www.odoo.com/
+- partner_name: CallRail
+  partner: callrail
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/callrail
+  direction: third-party
+  category: Call Tracking
+  partner_url: https://www.callrail.com/?utm_medium=strategicpartner&utm_source=zapier&utm_campaign=app_listing&utm_content=app_listing
+- partner_name: Copper
+  partner: copper
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/copper
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://copper.com/?utm_source=zapier&utm_medium=zapier
+- partner_name: Formstack Documents
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/formstack-documents
+  direction: third-party
+  category: Documents
+  partner_url: https://www.webmerge.me/?utm_source=zapier.com&utm_medium=referral&utm_campaign=partners&utm_content=partner+link
+- partner_name: Cin7 Core Inventory
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/cin7-core
+  direction: third-party
+  category: Accounting
+  partner_url: https://dearsystems.com/
+- partner_name: Magento 2.X
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/magento-v2
+  direction: third-party
+  category: eCommerce
+  partner_url: https://magento.com/
+- partner_name: BenchmarkONE
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/benchmarkone
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: http://www.hatchbuck.com/
+- partner_name: Hello Bar
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/hello-bar
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://www.hellobar.com/
+- partner_name: Volusion
+  partner: volusion
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  relationship: ipaas-bridge
+  evidence: https://zapier.com/apps/volusion/integrations/volusion
+  direction: third-party
+  category: eCommerce
+  partner_url: https://www.volusion.com/
 templates:
 - title: Subscribe new Volusion customers to a Mailchimp list
   url: https://zapier.com/apps/mailchimp/integrations/volusion/20922/subscribe-new-volusion-customers-to-a-mailchimp-list
